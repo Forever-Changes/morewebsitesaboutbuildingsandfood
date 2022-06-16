@@ -68,11 +68,24 @@ a:hover, navbar {
 }
 
 html {
-    background-color: maroon;
+    background-image: linear-gradient(to bottom, #406bb3, #7393c8, #ce966e , #ff7b1a);
+    background-attachment: fixed;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 body {
     height: 110%;
+    margin: 0;
 }
 
 
@@ -85,7 +98,7 @@ body {
 #left {
     width: 830px;
     height: 70%;
-    float: left;
+    float: top;
     background-color: maroon;
     z-index: 0;
     margin: 20px;
@@ -106,7 +119,7 @@ body {
 #right {
     width: 830px;
     height: 70%;
-    float: right;
+    float: top;
     background-color: maroon;
     z-index: 0;
     margin: 20px;
@@ -116,12 +129,12 @@ body {
     border-color: white;
 }
 
-#rightcontent {
+#boxcontent {
     padding: 15px;
 }
 
 #content {
-    align-items: center;
+    align-items: top;
     margin-left: 6vh;
     margin-right: 6vh;
     display: flex; flex-flow: row wrap;
@@ -142,11 +155,60 @@ body {
     padding-top: 0;
 }
 
-.line {
-    width: 100%;
+
+
+/* Solid border line */
+hr.solid {
+    border-top: 3px solid white;
+  }
+
+
+
+
+
+
+
+
+
+/* Site Boxes*/
+
+.sitebox {
+
+    height: 200px;
     background-color: white;
-    height: 2px;
+    margin: 20px;
 }
+
+#pacificaicon {
+    background-image: url(assets/img/pacifica.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+
+}
+#metamaticicon {
+    background-image: url(assets/img/metamatic.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+
+}
+
+a sitebox {
+    background-color: transparent;
+    color: transparent;
+}
+
+.sitebox:hover {
+    background-color:#9ab6e4;
+    color: transparent;
+}
+
+
 
 
 
@@ -172,4 +234,9 @@ footer {
 
 footer a {
     color: white;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
 }

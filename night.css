@@ -188,8 +188,18 @@ hr.solid {
     margin: 10px;
 
 }
-#metamaticicon {
-    background-image: url(assets/img/metamatic.png);
+#musicicon {
+    background-image: url(assets/img/reel-to-reel.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+
+}
+
+#photographyicon {
+    background-image: url(assets/img/camera.png);
     width: 180px;
     height: 180px;
     background-size: cover;

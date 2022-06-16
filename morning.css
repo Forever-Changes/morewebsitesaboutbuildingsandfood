@@ -68,7 +68,7 @@ a:hover, navbar {
 }
 
 html {
-    background-image: linear-gradient(to bottom, #A750CE8C, lightblue, lightblue);
+    background-image: linear-gradient(to bottom, #A8A8A88C, #b8d3ff, #90a9d2, #ff8031, #ff8031);
     background-attachment: fixed;
 }
 

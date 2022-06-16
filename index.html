@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <header>
     <title>More Websites About Buildings And Food </title>
     <link rel="SHORTCUT ICON" href="assets/icons/clock.ico"/> 
@@ -6,12 +12,37 @@
         
         <icon href="assets/icons/clock.ico"></icon>
         <h1 id="webtitle">More Websites About Buildings And Food</h1>
-        <link href="stylesheet.css" rel="stylesheet">
+
 
 
         <div id="navbar" margin="1px">
             <h3></h3><a href="www.morewebsitesaboutbuildingsandfood.com">Home</a> | <a href="https://pacifica.morewebsitesaboutbuildingsandfood.com/">Pacifica</a></h3>
         </div>
+
+
+        <script>
+            function getStylesheet() {
+              var currentTime = new Date().getHours();
+              if (0 <= currentTime&&currentTime < 5) {
+               document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+              }
+              if (5 <= currentTime&&currentTime < 11) {
+               document.write("<link rel='stylesheet' href='morning.css' type='text/css'>");
+              }
+              if (11 <= currentTime&&currentTime < 18) {
+               document.write("<link rel='stylesheet' href='stylesheet.css' type='text/css'>");
+              }
+              if (18 <= currentTime&&currentTime < 20) {
+               document.write("<link rel='stylesheet' href='evening.css' type='text/css'>");
+              }
+              if (20 <= currentTime&&currentTime <= 24) {
+               document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+              }
+            }
+            
+            getStylesheet();
+            
+            </script>
 
 </header>
 
@@ -26,12 +57,6 @@
                 <a href="https://pacifica.morewebsitesaboutbuildingsandfood.com/">
                     <div class="sitebox">
                         <div id="pacificaicon"></div>
-                    </div>
-                </a>
-
-                <a href="https://pacifica.morewebsitesaboutbuildingsandfood.com/">
-                    <div class="sitebox">
-                        <div id="metamaticicon"></div>
                     </div>
                 </a>
 

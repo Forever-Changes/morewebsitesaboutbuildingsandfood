@@ -10,12 +10,21 @@ html {
 }
 
 
-h1, h2, h3 {
+h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
 
+h3 {
+    color: white;
+}
 
+p {
+    color: white;
+}
 
 #navbar ul {
     list-style-type: none;

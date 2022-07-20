@@ -160,6 +160,26 @@ li a {
 
 
 
+footer {
+    min-height: 200px;
+    background-color: red;
+    padding: 3em;
+
+    text-align: center;
+    position: absolute;
+    top: 70em;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -192,6 +212,7 @@ li a {
 
 #categories {
     align-content: left;
+    text-align: center;
 
 }
 

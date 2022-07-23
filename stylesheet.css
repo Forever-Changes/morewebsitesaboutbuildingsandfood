@@ -7,6 +7,8 @@
 
 html {
     background-color: rgb(70, 70, 70);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .flex-container {
@@ -160,7 +162,7 @@ li a {
 
 
 
-footer {
+/* footer {
     min-height: 200px;
     background-color: red;
     padding: 3em;
@@ -171,8 +173,7 @@ footer {
     width: 100%;
 }
 
-
-
+*/
 
 
 
@@ -221,12 +222,20 @@ footer {
 #left {
     width: 40%;
     float: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 
 #right {
     width: 60%;
     float: right;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 
@@ -249,10 +258,7 @@ footer {
     float: left;
 }
 
-#treebirdfield:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 #vanlake {
@@ -267,10 +273,7 @@ footer {
     float: left;
 }
 
-#vanlake:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #lighthouse {
     width: 150px;
@@ -284,10 +287,7 @@ footer {
     float: left;
 }
 
-#lighthouse:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 #scarbhotel {
@@ -302,10 +302,6 @@ footer {
     float: left;
 }
 
-#scarbhotel:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 #fileybeach {
     width: 150px;
@@ -319,10 +315,7 @@ footer {
     float: left;
 }
 
-#fileybeach:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #scarbdocks {
     width: 150px;
@@ -336,10 +329,7 @@ footer {
     float: left;
 }
 
-#scarbdocks:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 
@@ -355,10 +345,7 @@ footer {
     float: left;
 }
 
-#zoobird:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #cooks2021 {
     width: 150px;
@@ -372,10 +359,7 @@ footer {
     float: left;
 }
 
-#cooks2021:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #cooksfilm {
     width: 150px;
@@ -389,10 +373,6 @@ footer {
     float: left;
 }
 
-#cooksfilm:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 
 #skysea {
@@ -407,10 +387,7 @@ footer {
     float: left;
 }
 
-#skysea:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #fileylighthouse {
     width: 150px;
@@ -424,10 +401,7 @@ footer {
     float: left;
 }
 
-#fileylighthouse:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 
@@ -443,10 +417,6 @@ footer {
     float: left;
 }
 
-#nycparktree:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 #gothicceiling {
     width: 150px;
@@ -458,11 +428,6 @@ footer {
     margin-top:5px;
     margin-left: 5px;
     float: left;
-}
-
-#gothicceiling:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
 }
 
 
@@ -478,10 +443,6 @@ footer {
     float: left;
 }
 
-#nycskylinestreet:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 
 #santafest {
@@ -496,10 +457,6 @@ footer {
     float: left;
 }
 
-#santafest:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 
 #evilempire {
@@ -514,10 +471,6 @@ footer {
     float: left;
 }
 
-#evilempire:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
 
 
 #gothtreetrain {
@@ -532,10 +485,7 @@ footer {
     float: left;
 }
 
-#gothtreetrain:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #cheeseboard {
     width: 150px;
@@ -549,10 +499,7 @@ footer {
     float: left;
 }
 
-#cheeseboard:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #lakedis {
     width: 150px;
@@ -566,10 +513,7 @@ footer {
     float: left;
 }
 
-#lakedis:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 #treefall {
     width: 150px;
@@ -583,10 +527,7 @@ footer {
     float: left;
 }
 
-#treefall:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 #field {
@@ -601,10 +542,7 @@ footer {
     float: left;
 }
 
-#field:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-}
+
 
 
 #benidorm {
@@ -620,16 +558,21 @@ footer {
     transition-duration: 0.2s;
 }
 
-#benidorm:hover {
-    transition-duration: 0.2s;
-    filter: grayscale(100%);
-    
-}
+
 
 
 .imgbord {
     border: 2px;
     border-style: solid;
+    display: flex;  
+    flex-direction: row;
+    transition-duration: 0.1s;
+}
+
+.imgbord:hover {
+    border-color: coral;
+
+    transition-duration: 0.1s;
     
 }
 
@@ -664,8 +607,8 @@ footer {
 
 
 #imgshowcase {
-    margin-right: 14%;
-    margin-left: 14%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 

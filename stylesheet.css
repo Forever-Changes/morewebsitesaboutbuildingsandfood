@@ -37,7 +37,7 @@ h1 {
     color: white;
     font-size: 10vh;
     text-align: center;
-    background-color:dodgerblue;
+    background-color:maroon;
     
 }
 
@@ -52,7 +52,8 @@ h3 {
 }
 
 .flex-container {
-    justify-content: space-around;
+    justify-content:space-evenly;
     text-align: center;
     padding: 10px;
+
 }

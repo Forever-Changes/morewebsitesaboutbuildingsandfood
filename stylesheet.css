@@ -2,11 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    color: white;
   }
 
 
 html {
     background-color: rgb(66, 66, 66);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white !important;
+    text-align: center;
+    padding: 5px;
+
+}
+
+a:hover {
+    color: white;
+    background-color: black !important;
+}
+
+.title {
+    padding: 5px;
 }
 
 body {
@@ -30,4 +49,10 @@ h2 {
 h3 {
     color: white;
     text-align: center;
+}
+
+.flex-container {
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
 }

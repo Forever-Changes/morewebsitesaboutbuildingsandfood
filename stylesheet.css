@@ -67,4 +67,9 @@ h3 {
     }
   }
 
+  @media all and (max-width: 600px) and (orientation:landscape) 
+  {
+    .link {
 
+    }
+  }

@@ -58,18 +58,27 @@ h3 {
 
 }
 
-@media all and (max-width:600px) {
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+
     .link {
         display:inline-block;
         width:100%;
         margin-bottom: 2vh;
         font-size: 5vw;
     }
+  
   }
+  
 
-  @media all and (max-width: 600px) and (orientation:landscape) 
-  {
+
+
+@media (min-width: 1000px) {
+
     .link {
 
     }
-  }
+
+}

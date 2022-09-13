@@ -57,3 +57,14 @@ h3 {
     padding: 10px;
 
 }
+
+@media all and (max-width:600px) {
+    .link {
+        display:inline-block;
+        width:100%;
+        margin-bottom: 2vh;
+        font-size: 5vw;
+    }
+  }
+
+

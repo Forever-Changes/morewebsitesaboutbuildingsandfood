@@ -7,14 +7,16 @@
 
 
 html {
-    background-color: rgb(66, 66, 66);
+    background-color: black;
 }
 
 a {
     text-decoration: none;
-    color: black;
-    background-color: white !important;
-    text-align: center;
+    color: white;
+    border-width: 0px 2px 0px 2px ;
+    border-style: solid;
+
+    font-family: monospace;
     padding: 5px;
 
 }
@@ -22,10 +24,19 @@ a {
 a:hover {
     color: white;
     background-color: black !important;
+    border-width: 2px 0px 2px 0px ;
+    border-style: solid;
 }
 
 .title {
     padding: 5px;
+    font-family: monospace;
+
+    width: 50%;
+}
+
+span {
+    font-size: 7px;
 }
 
 body {
@@ -35,40 +46,30 @@ body {
 }
 h1 {
     color: white;
-    font-size: 10vh;
-    text-align: center;
-    background-color:maroon;
+    font-size: 4vh;
+
     
 }
 
 h2 {
     color: white;
-    text-align: center;
+
 }
 
 h3 {
     color: white;
-    text-align: center;
+
+    font-size: 1vh;
 }
 
 .flex-container {
     justify-content:space-evenly;
-    text-align: center;
+
     padding: 10px;
 
 }
 
-span {
-    font-size: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#ascii {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: monospace, fixed; font-weight: bold; text-align: center
-}
 
 
 @media (min-width: 320px) and (max-width: 999px) {
@@ -80,7 +81,7 @@ span {
         font-size: 5vw;
     }
 
-    #ascii, span {
+    span {
         font-size: 2px;
     }
   

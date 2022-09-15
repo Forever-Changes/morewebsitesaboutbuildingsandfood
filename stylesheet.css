@@ -10,12 +10,20 @@ html {
     background-color: rgb(66, 66, 66);
 }
 
+@font-face {
+    font-family: kanit;
+    src: url(assets/fonts/Kanit-Regular.ttf);
+}
+
+
+
 a {
     text-decoration: none;
     color: black;
     background-color: white !important;
     text-align: center;
     padding: 5px;
+    font-family:kanit;
 
 }
 
@@ -26,6 +34,7 @@ a:hover {
 
 .title {
     padding: 5px;
+    font-family: kanit;
 }
 
 body {
@@ -49,6 +58,7 @@ h2 {
 h3 {
     color: white;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .flex-container {

@@ -10,6 +10,13 @@ html {
     background-color: rgb(66, 66, 66);
 }
 
+@font-face {
+    font-family: kanit;
+    src: url(assets/fonts/Kanit-Regular.ttf);
+}
+
+
+
 a {
     text-decoration: none;
     color: black;
@@ -23,4 +30,129 @@ a {
 a:hover {
     color: white;
     background-color: black !important;
+}
+
+.title {
+    padding: 5px;
+    font-family: kanit;
+}
+
+body {
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    background-color:maroon;
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 10px;
+
+}
+
+span {
+    font-size: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#maintitleclassic {
+    display: none;
+
+}
+
+#ascii {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace, fixed; font-weight: bold; text-align: center
+}
+
+
+footer {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 12px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer a {
+    color: white;
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: white;
+    background-color: transparent !important;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+
+    .link {
+        display:inline-block;
+        width:100%;
+        margin-bottom: 2vh;
+        font-size: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ascii, span {
+        display: none;
+    }
+
+    #maintitleclassic {
+        display: block;
+    
+    }
+
+    footer {
+        position:static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+  
+  }
+  
+
+
+
+@media (min-width: 1000px) {
+
+    .link {
+
+    }
+
 }

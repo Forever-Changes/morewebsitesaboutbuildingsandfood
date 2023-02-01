@@ -97,10 +97,10 @@ footer {
     color: white;
     letter-spacing: 1px;
     line-height: 12px;
-    margin-top: 20px;
+    margin-top: 43px;
     margin-bottom: 16px;
     text-align: center;
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
@@ -118,7 +118,22 @@ footer a:hover {
     background-color: transparent !important;
 }
 
+#wcb.carbonbadge {
+    --b1: #0e11a8;
+    --b2: #00ffbc;
+    font-size: 20px;
+    text-align: center;
+    color: var(--b1);
+    line-height: 1.15;
+}
 
+#wcb #wcb_g {
+    border-radius: .3em 0 0 .3em;
+    background: #fff;
+    border-right: 0;
+    min-width: 8.2em;
+    color: black;
+  }
 
 @media (min-width: 320px) and (max-width: 999px) {
 
@@ -141,10 +156,13 @@ footer a:hover {
     }
 
     footer {
-        position:static;
         left: 0;
         bottom: 0;
         width: 100%;
+    }
+
+    #wcb.carbonbadge {
+        font-size: 20px !important;
     }
   
   }
@@ -158,4 +176,13 @@ footer a:hover {
 
     }
 
+}
+
+
+#wcb #wcb_g {
+    border-radius: .3em 0 0 .3em;
+    background: #fff;
+    border-right: 0;
+    min-width: 8.2em;
+    color: black !important;
 }

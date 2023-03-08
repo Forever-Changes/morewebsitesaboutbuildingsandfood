@@ -141,11 +141,12 @@ footer a:hover {
 
     .link {
         display:inline-block;
-        width:100%;
+        width:95%;
         margin-bottom: 2vh;
         font-size: 5vw;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 20px;
     }
 
     #ascii, span {
